@@ -1,0 +1,6 @@
+Coefficients:  38.992978724434074
+Intercept:  126.28970217408721
+Mean Absolute Error: 24.10
+Mean Squared Error: 985.94
+Root Mean Squared Error: 31.40
+R2 Score: 0.76
