@@ -65,9 +65,10 @@ print('Intercept: ', regression.intercept_)
 
 # visualize the model
 plt.scatter(X_train, y_train, color='blue')
-plt.plot(X_train,   )
+plt.plot(X_train, regression.predict(X_train.reshape(-1, 1)), color='red')
 plt.xlabel("Engine Size")
 plt.ylabel("CO2 Emissions")
+plt.savefig("regression_plot.png") #save the plot as a PNG file
 plt.show()
 
 
